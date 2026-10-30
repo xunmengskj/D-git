@@ -1,0 +1,56 @@
+# ---------- 依赖 ----------
+node_modules/
+node_modeules/
+package-lock.json.bak
+
+# ---------- 构建产物 ----------
+dist/
+build/
+out/
+*.min.js
+
+# ---------- 环境变量与密钥 ----------
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+
+# ---------- 日志 ----------
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- 数据与临时文件 ----------
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+tmp/
+temp/
+*.tmp
+
+# ---------- 编辑器 / IDE ----------
+.idea/
+.vscode/
+.trae/
+*.swp
+*.swo
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
